@@ -1,11 +1,15 @@
-import Hero from "@/components/Hero"
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import NavBar from "@/components/NavBar";
+import Features from "@/components/Features";
 
 export default function Home() {
   return (
     <main className="relative min-h-screen w-screen overflow-x-hidden">
+      <NavBar />
       <Hero />
-
-      <section className="z-0 min-h-screen bg-blue-500"/>
+      <About />
+      <Features />
     </main>
   );
 }
